@@ -36,7 +36,7 @@ function ProfileCard() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
     >
-      <h3 className="text-2xl font-bold mb-5 text-blue-600 text-center">
+      <h3 className="text-2xl font-bold mb-5 text-blue-700 text-center">
         My Profile
       </h3>
 
@@ -81,7 +81,7 @@ function ProfileCard() {
 
           <div className="flex gap-4 mt-2">
             <button
-              className="flex-1 py-2 bg-blue-500 text-white rounded-xl font-semibold hover:bg-blue-600 transition"
+              className="flex-1 py-2 bg-blue-700 text-white rounded-xl font-semibold hover:bg-blue-600 transition"
               onClick={saveProfile}
             >
               Save
@@ -107,15 +107,15 @@ function ProfileCard() {
       ) : (
         <div className="space-y-3 text-center">
           <div>
-            <span className="font-medium text-blue-400">Name:</span>{" "}
+            <span className="font-medium text-blue-600">Name:</span>{" "}
             <span className="font-semibold text-gray-700">{user?.name}</span>
           </div>
           <div>
-            <span className="font-medium text-blue-400">Email:</span>{" "}
+            <span className="font-medium text-blue-600">Email:</span>{" "}
             <span className="font-semibold text-gray-700">{user?.email}</span>
           </div>
           <button
-            className="mt-5 w-full py-2 bg-blue-100 text-blue-600 rounded-xl font-semibold hover:bg-blue-200 transition"
+            className="mt-5 w-full py-2 bg-blue-700 text-gray-100 rounded-xl font-semibold hover:bg-blue-500 transition"
             onClick={() => setEditing(true)}
           >
             Edit Profile

@@ -76,7 +76,7 @@ function Posts() {
 
   return (
     <motion.div
-      className="bg-white rounded-3xl shadow-2xl p-6 border-t-4 border-blue-500 hover:shadow-blue-200 transition duration-300"
+      className="bg-white rounded-3xl shadow-2xl p-6 border-t-4 border-black hover:shadow-gray-200 transition duration-300"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
     >
@@ -125,7 +125,7 @@ function Posts() {
               Update
             </button>
             <button
-              className="flex-1 py-2 border border-blue-300 text-blue-600 rounded-xl hover:bg-blue-50 transition"
+              className="flex-1 py-2 border border-blue-300 text-blue-700 rounded-xl hover:bg-blue-50 transition"
               onClick={() => {
                 setEditingPost(null);
                 setForm({ title: "", content: "" });
@@ -164,7 +164,7 @@ function Posts() {
             {post.user?._id === user?._id && (
               <div className="flex gap-3 mt-3">
                 <button
-                  className="px-4 py-1 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
+                  className="px-4 py-1 bg-blue-700 text-white rounded-lg hover:bg-blue-600 transition"
                   onClick={() => startEdit(post)}
                 >
                   Edit
