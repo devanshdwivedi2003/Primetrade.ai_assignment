@@ -1,13 +1,13 @@
 FEATURES
 
-✅ User Signup/Login with JWT-based authentication
-✅ Password hashing using bcrypt
-✅ Protected routes on frontend (React)
-✅ Dashboard with user profile & CRUD operations (Posts)
-✅ Search & filter functionality
-✅ Logout & token invalidation flow
-✅ Responsive UI using TailwindCSS
-✅ Implement rate limiting & helmet for security
+User Signup/Login with JWT-based authentication
+Password hashing using bcrypt
+Protected routes on frontend (React)
+Dashboard with user profile & CRUD operations (Posts)
+Search & filter functionality
+Logout & token invalidation flow
+Responsive UI using TailwindCSS
+Implemented rate limiting & helmet for security
 
 
 TECH STACK
@@ -28,11 +28,12 @@ frontend/
   ├── src/
   │   ├── components/   # Reusable UI components
   │   ├── pages/        # Login, Signup, Dashboard, etc.
-  │   ├── context/        # auth context (e.g., useAuth)
-  │   ├── API/         # Helpers (API config)
+  │   ├── context/      # auth context (e.g., useAuth)
+  │   ├── API/          # Helpers (API config)
   │   └── App.js
   ├── public/
   └── package.json
+
 
 
   backend/
@@ -43,6 +44,7 @@ frontend/
   │   ├── config/       # DB connection, env variables
   │   └── server.js
   ├── package.json
+
 
   GETTING STARTED
   
