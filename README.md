@@ -10,7 +10,7 @@ Responsive UI using TailwindCSS
 Implemented rate limiting & helmet for security
 
 
-TECH STACK
+[TECH STACK]
 
 [Frontend]
 React.js
